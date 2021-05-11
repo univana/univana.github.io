@@ -184,7 +184,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-05-11 11:03:18 / Modified: 11:11:18" itemprop="dateCreated datePublished" datetime="2021-05-11T11:03:18+08:00">2021-05-11</time>
+      <time title="Created: 2021-05-11 11:03:18 / Modified: 11:12:54" itemprop="dateCreated datePublished" datetime="2021-05-11T11:03:18+08:00">2021-05-11</time>
     </span>
 
   
@@ -197,7 +197,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="1-用-list-存储计算的中间结果"><a href="#1-用-list-存储计算的中间结果" class="headerlink" title="1. 用 list 存储计算的中间结果"></a>1. 用 list 存储计算的中间结果</h2><p>‘’’<br>class Solution:<br>    def fib(self, n: int) -&gt; int:<br>        if n == 0:<br>            return 0<br>        elif n == 1:<br>            return 1<br>        else:<br>            tmp = [0,1]<br>            i = 1<br>            while i &lt; n:<br>                tmp.append(tmp[i] + tmp[i-1])<br>                i = i + 1<br>            return tmp.pop() % 1000000007<br>‘’’</p>
+          <h2 id="1-用-list-存储计算的中间结果"><a href="#1-用-list-存储计算的中间结果" class="headerlink" title="1. 用 list 存储计算的中间结果"></a>1. 用 list 存储计算的中间结果</h2><p>···python<br>class Solution:<br>    def fib(self, n: int) -&gt; int:<br>        if n == 0:<br>            return 0<br>        elif n == 1:<br>            return 1<br>        else:<br>            tmp = [0,1]<br>            i = 1<br>            while i &lt; n:<br>                tmp.append(tmp[i] + tmp[i-1])<br>                i = i + 1<br>            return tmp.pop() % 1000000007<br>···</p>
 
       
     </div>
